@@ -1,0 +1,22 @@
+.header{
+    margin-top: 60px;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Lora', serif;
+        
+        span{
+            position: absolute;
+            top: 25%;
+            font-size: 75px;
+            color: rgb(64, 105, 14);
+        }
+    }
+    img{
+        width: 100%;
+        height: 450px;
+        margin-top: 80px;
+        object-fit: cover;
+    }
+}

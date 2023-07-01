@@ -1,0 +1,67 @@
+.setting{
+    display: flex;
+    .settingWrapper{
+        flex: 9;
+        padding: 20px;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .upd{
+                font-size: 30px;
+                margin-bottom: 20px;
+                color: lightcoral;
+            }
+            .del{
+                color: red;
+                font-size: 12px;
+                cursor: pointer;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            .pps{
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                justify-content: flex-start;
+                img{
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                }
+            }
+            label{
+                font-size: 16px;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            input{
+                color: gray;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                height: 30px;
+                border: none;
+                border-bottom: 1px solid lightgray;
+                width: 20%;
+            }
+            button{
+                align-self: center;
+                width: 150px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                background-color: teal;
+                padding: 10px;
+                margin-top: 20px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
